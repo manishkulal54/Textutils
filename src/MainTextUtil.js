@@ -68,7 +68,7 @@ export default function MainTextUtil(props) {
 
     return (
         <div  className={`bg-${props.mode==='dark'?'dark':'light'}`}>
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="https://manishkulal.netlify.app">
                 <img src={logo} alt="" width="100" height="100" className="d-inline-block align-text-top" />
             </a>
             <div className="form-check form-switch position-absolute top-0 end-0 me-3">
