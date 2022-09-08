@@ -1,0 +1,11 @@
+.alertStyle{
+    width: 20vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+@media screen and (max-width:992px) {
+    .alertStyle{
+        width: 50vw;
+    }
+}
